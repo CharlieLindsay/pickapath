@@ -14,6 +14,13 @@ function leftclick() {
         stage = 2;
         stageone.style.display = "none";
         stagetwo.style.display = "block";
+        console.log("Stage 2")
+    }
+    else if (stage == 2) {
+        stagetwo.style.display = "none";
+        stagefour.style.display = "block";
+        buttons.style.display = "none";
+        stage = 1
     }
 }
 function rightclick() {
@@ -23,7 +30,7 @@ function rightclick() {
         stagethree.style.display = "block";
         buttons.style.display = "none";
     }
-    if (stage == 2) {
+    else if (stage == 2) {
         stage = 3;
         stagetwo.style.display = "none";
         stagethree.style.display = "block";

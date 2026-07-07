@@ -39,3 +39,9 @@ a{
     border-radius:40px;
     padding:20px;
 }
+button{
+    background-color:rgb(160, 96, 0);
+    color:white;
+    border-radius:20px;
+    font-size:20px;
+}
