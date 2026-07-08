@@ -1,6 +1,7 @@
 body{
-    background-color:blanchedalmond;
+    background-color:#051672;
     text-align:center;
+    color:white;
 }
 h1{
     margin-bottom:5px;
@@ -9,7 +10,7 @@ h1{
     width:35%;
     margin-left:auto;
     margin-right:auto;
-    background-color:rgb(255, 210, 143);
+    background-color:#6E8898;
     border-radius:40px;
 }
 #levels{
@@ -18,12 +19,12 @@ h1{
     gap:10px;
 }
 .level_option{
-    background-color: rgb(255, 210, 143);
+    background-color: #6E8898;
     border-radius:20px;
     width:20%;
 }
 a{
-    color:black;
+    color:white;
     text-decoration: none;
 }
 #buttons{
@@ -35,7 +36,7 @@ a{
     width:35%;
     margin-left:auto;
     margin-right:auto;
-    background-color:rgb(255, 210, 143);
+    background-color:#6E8898;
     border-radius:40px;
     padding:20px;
 }

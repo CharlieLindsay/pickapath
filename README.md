@@ -1,1 +1,16 @@
 # Pick-A-Path
+A fun story game by Charlie based in a website
+
+
+
+## Features
+- 
+
+
+## Try-it-out options
+- View on the website at https://pickapath.charleilei.dpdns.org/
+- Download the files as a zip file, extract, and open index.html
+
+
+This website was made by Charlie Lindsay
+Made as a project for Hackclub Stardance
