@@ -47,14 +47,27 @@ h2 {
     background-color: #69b6e6;
     border-radius: 20px;
     width: 30%;
+    height: 100px;
     display: flex;
     align-items: center;
-    justify-content:center;
-    height: 100px;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
 }
 
+.level_option:hover {
+    background-color: #3a86b6;
+    cursor: pointer;
+}
+
+.level_option:active {
+    transform: translateY(4px);
+    box-shadow: 0 1px #2980b9;
+}
+
+
 #a_hidden {
-    color: white;
+    color: rgb(0, 0, 0);
     text-decoration: none;
 }
 
@@ -65,7 +78,7 @@ h2 {
 }
 
 #contents {
-    width: 35%;
+    width: 45%;
     margin-left: auto;
     margin-right: auto;
     background-color: #69b6e6;
