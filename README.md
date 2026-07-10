@@ -6,6 +6,8 @@ A fun story game by Charlie based in a website
 ## Features
 - 
 
+## Attribution
+- https://pixabay.com/illustrations/app-application-arrow-back-button-1646220/
 
 ## Try-it-out options
 - View on the website at https://pickapath.charleilei.dpdns.org/
