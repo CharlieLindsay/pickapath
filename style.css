@@ -4,9 +4,10 @@ body {
     color: rgb(0, 0, 0);
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
 ::selection {
-  background: #98f0ff;
-  text-shadow: none;
+    background: #98f0ff;
+    text-shadow: none;
 }
 
 h1 {

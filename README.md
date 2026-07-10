@@ -3,8 +3,9 @@ A fun story game by Charlie based in a website
 
 
 
-## Features
-- 
+## Contains
+- Multiple fun stories
+- Options on each page to allow the user to choose
 
 ## Attribution
 - https://pixabay.com/illustrations/app-application-arrow-back-button-1646220/
