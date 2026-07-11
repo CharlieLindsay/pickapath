@@ -4,7 +4,7 @@ A fun story game by Charlie based in a website
 ![Image of Level One](https://pickapath.charleilei.dpdns.org/images/Screenshot2026-07-11161120.png)
 
 ## Contains
-- Multiple fun stories
+- Three small, fun levels
 - Options on each page to allow the user to choose
 
 ## Attribution
