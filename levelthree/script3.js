@@ -9,21 +9,8 @@ let stage = 1;
 stagetwo.style.display = "none";
 stagethree.style.display = "none";
 stagefour.style.display = "none";
+
 function leftclick() {
-    if (stage == 1) {
-        stage = 2;
-        stageone.style.display = "none";
-        stagetwo.style.display = "block";
-        console.log("Stage 2")
-    }
-    else if (stage == 2) {
-        stagetwo.style.display = "none";
-        stagefour.style.display = "block";
-        buttons.style.display = "none";
-        stage = 1
-    }
-}
-function rightclick() {
     if (stage == 1) {
         stage = 3;
         stageone.style.display = "none";
@@ -38,5 +25,18 @@ function rightclick() {
     }
 }
 
+function rightclick() {
+    if (stage == 1) {
+        stage = 2;
+        stageone.style.display = "none";
+        stagetwo.style.display = "block";
+    }
+    else if (stage == 2) {
+        stagetwo.style.display = "none";
+        stagefour.style.display = "block";
+        buttons.style.display = "none";
+        stage = 1
+    }
+}
 left.addEventListener("click", leftclick);
 right.addEventListener("click", rightclick);
