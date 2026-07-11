@@ -30,6 +30,12 @@ h2 {
     margin-bottom: 20px;
 
 }
+#header:hover{
+color:rgb(85, 84, 84);
+}
+#about:hover{
+color:rgb(0, 56, 129);
+}
 
 #footer {
     width: 35%;
