@@ -1,7 +1,7 @@
 # Pick-A-Path
 A fun story game by Charlie based in a website
 
-![Image of Level One](https://pickapath.charleilei.dpdns.org/images/Screenshot)
+![Image of Level One](https://pickapath.charleilei.dpdns.org/images/Screenshot.png)
 
 ## Contains
 - Three small, fun levels
