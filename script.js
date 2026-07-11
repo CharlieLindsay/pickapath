@@ -14,7 +14,6 @@ function leftclick() {
         stage = 2;
         stageone.style.display = "none";
         stagetwo.style.display = "block";
-        console.log("Stage 2")
     }
     else if (stage == 2) {
         stagetwo.style.display = "none";
