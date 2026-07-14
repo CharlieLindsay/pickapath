@@ -17,7 +17,7 @@ I am not a particularly good storyteller, but my goal with this was to improve m
 - Read the story, and press the buttons to make your decisions as you go through the story
 
 ## Contains
-- Three small, fun levels
+- Three small and fun levels
 - Options on each page to allow the user to choose
 
 ## Attribution
