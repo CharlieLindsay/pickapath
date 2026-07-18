@@ -26,7 +26,7 @@ h2 {
     margin-right: auto;
     background-color: #69b6e6;
     border-radius: 40px;
-    padding: 1px;
+    padding: 10px;
     margin-bottom: 20px;
 
 }
@@ -75,6 +75,14 @@ color:rgb(0, 56, 129);
     text-decoration: none;
     color: black;
     font-size:25px;
+}
+.header_link {
+    background-color: #69b6e6;
+    border-radius: 40px;
+    width: 30%;
+    height: 100px;
+    text-decoration: none;
+    color: black;
 }
 
 .level_option:hover {
@@ -136,4 +144,18 @@ button:active {
 
 p {
     font-size: 30px;
+}
+
+.link_shown{
+    text-decoration:underline;
+    color:blue;
+}
+a{
+    text-decoration:none;
+    color:black;
+}
+.header_link h1,
+.header_link h2 {
+    color: black;
+    text-decoration: none;
 }
