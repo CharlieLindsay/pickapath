@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Kameron:wght@400..700&display=swap');
 body {
     background-color: #247BA0;
     text-align: center;
     color: rgb(0, 0, 0);
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Kameron;
 }
 
 ::selection {
