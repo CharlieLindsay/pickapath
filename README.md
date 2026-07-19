@@ -22,6 +22,7 @@ I am not a particularly good storyteller, but my goal with this was to improve m
 
 ## Attribution
 - https://pixabay.com/illustrations/app-application-arrow-back-button-1646220/
+- Google Fonts
 
 
 This website was made by Charlie Lindsay
