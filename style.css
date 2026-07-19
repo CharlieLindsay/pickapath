@@ -1,5 +1,5 @@
 body {
-    background-color: #051672;
+    background-color: #247BA0;
     text-align: center;
     color: rgb(0, 0, 0);
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -24,14 +24,14 @@ h2 {
     width: 35%;
     margin-left: auto;
     margin-right: auto;
-    background-color: #69b6e6;
+    background-color: #CBD4C2;
     border-radius: 40px;
     padding: 10px;
     margin-bottom: 20px;
 
 }
 #header:hover{
-color:rgb(17, 39, 139);
+color:rgb(17, 139, 129);
 }
 #about:hover{
 color:rgb(0, 56, 129);
@@ -43,7 +43,7 @@ color:rgb(0, 56, 129);
     position: fixed;
     bottom: 0;
     left: 32.5%;
-    background-color: #69b6e6;
+    background-color: #CBD4C2;
     justify-content: center;
     border-radius: 40px;
 }
@@ -53,7 +53,7 @@ color:rgb(0, 56, 129);
     position: fixed;
     bottom:20%;
     left: 30%;
-    background-color: #69b6e6;
+    background-color: #CBD4C2;
     justify-content: center;
     border-radius: 40px;
     padding:10px;
@@ -65,7 +65,7 @@ color:rgb(0, 56, 129);
 }
 
 .level_option {
-    background-color: #69b6e6;
+    background-color: #CBD4C2;
     border-radius: 40px;
     width: 30%;
     height: 100px;
@@ -77,7 +77,7 @@ color:rgb(0, 56, 129);
     font-size:25px;
 }
 .header_link {
-    background-color: #69b6e6;
+    background-color: #CBD4C2;
     border-radius: 40px;
     width: 30%;
     height: 100px;
@@ -86,7 +86,7 @@ color:rgb(0, 56, 129);
 }
 
 .level_option:hover {
-    background-color: #3a86b6;
+    background-color: #868d80;
     cursor: pointer;
 }
 
@@ -111,7 +111,7 @@ color:rgb(0, 56, 129);
     width: 45%;
     margin-left: auto;
     margin-right: auto;
-    background-color: #69b6e6;
+    background-color: #CBD4C2;
     border-radius: 40px;
     padding: 20px;
 }
