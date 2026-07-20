@@ -8,7 +8,30 @@ const stagetwo = document.getElementById("stagetwo");
 const stagethree = document.getElementById("stagethree");
 const stagefour = document.getElementById("stagefour");
 const buttons = document.getElementById("buttons");
+const level_one = document.getElementById("level_one");
+const level_two = document.getElementById("level_two");
+const level_three = document.getElementById("level_three");
 let stage = 1;
+
+if (!localStorage.getItem("level_one")) {
+    localStorage.setItem("level_one", 0);
+}
+if (!localStorage.getItem("level_two")) {
+    localStorage.setItem("level_two", 0);
+}
+if (!localStorage.getItem("level_three")) {
+    localStorage.setItem("level_three", 0);
+}
+if (localStorage.getItem("level_one") == 1){
+    level_one.style.backgroundColor = "green";
+}
+if (localStorage.getItem("level_two") == 1){
+    level_two.style.backgroundColor = "green";
+}
+if (localStorage.getItem("level_three") == 1){
+    level_three.style.backgroundColor = "green";
+}
+
 stagetwo.style.display = "none";
 stagethree.style.display = "none";
 stagefour.style.display = "none";
