@@ -11,6 +11,9 @@ const buttons = document.getElementById("buttons");
 const level_one = document.getElementById("level_one");
 const level_two = document.getElementById("level_two");
 const level_three = document.getElementById("level_three");
+const completed_one = document.getElementById("completed_one");
+const completed_two = document.getElementById("completed_two");
+const completed_three = document.getElementById("completed_three");
 let stage = 1;
 
 if (!localStorage.getItem("level_one")) {
@@ -23,13 +26,13 @@ if (!localStorage.getItem("level_three")) {
     localStorage.setItem("level_three", 0);
 }
 if (localStorage.getItem("level_one") == 1){
-    level_one.style.backgroundColor = "green";
+    level_one.style.backgroundColor = "#ace6bb";
 }
 if (localStorage.getItem("level_two") == 1){
-    level_two.style.backgroundColor = "green";
+    level_two.style.backgroundColor = "#ace6bb";
 }
 if (localStorage.getItem("level_three") == 1){
-    level_three.style.backgroundColor = "green";
+    level_three.style.backgroundColor = "#ace6bb";
 }
 
 stagetwo.style.display = "none";
@@ -63,5 +66,19 @@ function rightclick() {
     }
 }
 
+function completedFirst() {
+  alert("First was completed!");
+}
+function completedSecond() {
+  alert("Second was completed!");
+}
+function completedThird() {
+  alert("Third was completed!");
+}
+
+
+completed_one.addEventListener("click", completedFirst);
+completed_two.addEventListener("click", completedSecond);
+completed_three.addEventListener("click", completedThird);
 left.addEventListener("click", leftclick);
 right.addEventListener("click", rightclick);
