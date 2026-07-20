@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Kameron:wght@400..700&display=swap');
+
 body {
     background-color: #247BA0;
     text-align: center;
@@ -12,7 +13,7 @@ body {
 }
 
 h1 {
-    margin-top:10px;
+    margin-top: 10px;
     margin-bottom: 5px;
 }
 
@@ -32,15 +33,18 @@ h2 {
     margin-bottom: 20px;
 
 }
-#header:hover{
-color:rgb(17, 139, 129);
-background-color: #b5bdac;
+
+#header:hover {
+    color: rgb(17, 139, 129);
+    background-color: #b5bdac;
 }
-#about:hover{
-color:rgb(0, 56, 129);
+
+#about:hover {
+    color: rgb(0, 56, 129);
 }
-#footer:hover{
-color:rgb(0, 56, 129);
+
+#footer:hover {
+    color: rgb(0, 56, 129);
 }
 
 #footer {
@@ -63,6 +67,7 @@ color:rgb(0, 56, 129);
     border-radius: 40px;
     padding: 10px;
 }
+
 #levels {
     display: flex;
     justify-content: space-between;
@@ -79,8 +84,9 @@ color:rgb(0, 56, 129);
     justify-content: center;
     text-decoration: none;
     color: black;
-    font-size:25px;
+    font-size: 25px;
 }
+
 .header_link {
     background-color: #CBD4C2;
     border-radius: 40px;
@@ -140,7 +146,7 @@ button {
 
 button:hover {
     background-color: #17547e;
-    color:white;
+    color: white;
 }
 
 button:active {
@@ -152,14 +158,16 @@ p {
     font-size: 30px;
 }
 
-.link_shown{
-    text-decoration:underline;
-    color:blue;
+.link_shown {
+    text-decoration: underline;
+    color: blue;
 }
-a{
-    text-decoration:none;
-    color:black;
+
+a {
+    text-decoration: none;
+    color: black;
 }
+
 .header_link h1,
 .header_link h2 {
     color: black;
