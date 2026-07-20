@@ -34,8 +34,12 @@ h2 {
 }
 #header:hover{
 color:rgb(17, 139, 129);
+background-color: #b5bdac;
 }
 #about:hover{
+color:rgb(0, 56, 129);
+}
+#footer:hover{
 color:rgb(0, 56, 129);
 }
 
@@ -125,18 +129,19 @@ color:rgb(0, 56, 129);
 }
 
 button {
-    background-color: rgb(0, 255, 115);
+    background-color: #0ca7e9;
     color: rgb(0, 0, 0);
     border-radius: 40px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 40px;
-    box-shadow: 0 5px #007c06;
+    box-shadow: 0 5px #1356bb;
     transition: all 0.1s ease;
     cursor: pointer;
 }
 
 button:hover {
-    background-color: rgb(0, 179, 80);
+    background-color: #17547e;
+    color:white;
 }
 
 button:active {
