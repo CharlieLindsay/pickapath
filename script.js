@@ -1,3 +1,5 @@
+// Welcome person looking at my script, well, to my script!
+// All my constant variables being set
 const left = document.getElementById("left");
 const right = document.getElementById("right");
 const stageone = document.getElementById("stageone");

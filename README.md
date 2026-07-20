@@ -19,6 +19,7 @@ I am not a particularly good storyteller, but my goal with this was to improve m
 ## Contains
 - Three small and fun stories
 - Options on each page to allow the user to choose what to do
+- Stores completed levels in localstorage
 
 ## Attribution
 - https://pixabay.com/illustrations/app-application-arrow-back-button-1646220/
