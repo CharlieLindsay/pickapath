@@ -6,9 +6,12 @@ const stagethree = document.getElementById("stagethree");
 const stagefour = document.getElementById("stagefour");
 const buttons = document.getElementById("buttons");
 let stage = 1;
-stagetwo.style.display = "none";
-stagethree.style.display = "none";
-stagefour.style.display = "none";
+
+if (buttons) {
+    if (stagetwo) stagetwo.style.display = "none";
+    if (stagethree) stagethree.style.display = "none";
+    if (stagefour) stagefour.style.display = "none";
+}
 
 function leftclick() {
     if (stage == 1) {
@@ -38,5 +41,15 @@ function rightclick() {
         stage = 1
     }
 }
-left.addEventListener("click", leftclick);
-right.addEventListener("click", rightclick);
+
+if (left) left.addEventListener("click", leftclick);
+if (right) right.addEventListener("click", rightclick);
+
+// Mark level three as completed as soon as the successful ending page
+// (evacuate.html) is reached - it has a hidden #completed_three marker -
+// rather than waiting on a specific button click, so it's recorded no
+// matter which button the player clicks next.
+const completed_three = document.getElementById("completed_three");
+if (completed_three) {
+    localStorage.setItem("level_three", 1);
+}
